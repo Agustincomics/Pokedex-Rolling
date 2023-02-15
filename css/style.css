@@ -1,44 +1,21 @@
-
-
-#Cards {
+body{
     display: flex;
-    align-items: center;
+    flex-direction: column;
+    /* toda la pantalla es utilizada 100% osea 100vh */
+    min-height: 100vh;
 }
-.carousel-inner img {
-    width: 100%;
-    max-height: 500px;
+/* el  main utilizara mas espacio que el header o footer
+con flex grow (le dice a los elemntos quien tendra mas espacio (los demas por
+defecto tienen 0))*/
+main{
+    flex-grow: 1;
 }
-
-.carousel-inner{
- height: 600px;
+.redes-sociales{
+    text-decoration: none;
 }
-
-#xd{
-    width: 100%;
-    height: 100%;
+@media all and (max-width: 767px){
+    .baner-responsive{
+        height: 300px;
+        object-fit: cover;
+    }
 }
-
-.main{
-    width: 70%;
-    
-}
-
-.aside{
-    width: 25%;
-}
-
-
-
-#store{
-    text-align: center;
-}
-
-ul{
-    list-style: none;
-}
-
-.rounded{
-    width: 100%;
-}
-
-
