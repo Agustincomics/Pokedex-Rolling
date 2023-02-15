@@ -1,8 +1,8 @@
 # Proyecto Pokedex
 
-![Panaderioa Cocu](https://res.cloudinary.com/mach/image/upload/v1676481175/pokemon-portada-img_b5qcst.jpg)
+![Panaderioa Cocu](https://res.cloudinary.com/mach/image/upload/v1676481524/pokemon-portada-img_xnsmc2.jpg)
 
-este proyecto esta realizado como practica de git hub y bootstrap se llama panaderia **coscu**
+este proyecto esta realizado como practica de git hub y bootstrap se llama **Pokedex**
 
 ##Tecnologias / herramientas
 
