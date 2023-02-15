@@ -1,17 +1,11 @@
 body{
     display: flex;
     flex-direction: column;
-    /* toda la pantalla es utilizada 100% osea 100vh */
     min-height: 100vh;
 }
-/* el  main utilizara mas espacio que el header o footer
-con flex grow (le dice a los elemntos quien tendra mas espacio (los demas por
-defecto tienen 0))*/
+
 main{
     flex-grow: 1;
-}
-.redes-sociales{
-    text-decoration: none;
 }
 @media all and (max-width: 767px){
     .baner-responsive{
