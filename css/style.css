@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Satisfy&display=swap');
 
 * {
@@ -134,3 +135,20 @@ a:hover {
         height: 100%;
     }
 } 
+=======
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    flex-grow: 1;
+}
+@media all and (max-width: 767px){
+    .baner-responsive{
+        height: 300px;
+        object-fit: cover;
+    }
+}
+>>>>>>> origin/devMario
