@@ -58,6 +58,11 @@ main {
     margin: 20px;
 }
 
+.banner img {
+    height: 35vh;
+}
+
+
 footer {
     background: #000;
     padding: 20px 0px;
@@ -111,6 +116,13 @@ a:hover {
     border-radius: 25%;
     height: 5%;
 }
+
+.colorante-psi{
+    background-color: #e60acc;
+    color: white;
+    border-radius: 25%;
+    height: 5%;
+}
 .colorante-vo:hover{
     color: white;
     background-color: #20cfffcb;
@@ -134,3 +146,13 @@ a:hover {
         height: 100%;
     }
 } 
+<<<<<<< HEAD
+=======
+
+@media (min-width: 992px){
+    .banner img {
+        height: 500px;
+    }
+
+} 
+>>>>>>> 2441ea9658ccd5b9d7c67593cb1fc911c4fb365d

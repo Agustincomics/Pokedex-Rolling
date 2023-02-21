@@ -9,27 +9,28 @@ este proyecto esta realizado como practica de git hub y bootstrap se llama **Pok
 -   HTML **v5**
 -   CSS **v5**
 -   [Bootstrap](https://getbootstrap.com/) **v5.3**
+-   GitHub
 
 ## Requisitos
 
 -   Tener Pc
 -   Tener Internet
--   Tener Pc
-
-> **importante** para que funcione debe descargar el sjhagjhdgjhgjhgh
+-   Querer disfrutar de nuestra App
 
 ## Clonar repo
 
 ```bash
-git clone jhkjsdhkdshkj
+git clone https://github.com/Agustincomics/Pokedex-Rolling.git
 ```
 
 ## Como contribuir en el proyecto
 
-para contribuir debes ponerte en contacto con: *marioachavez1@gmail.com*
+para contribuir debes ponerte en contacto con: *EquipoTrabajo@gmail.com*
 
-## Participante
+## Colaboradores
 
-1. pepe argento
-2. Mario Chavez [GitHub](https://github.com/Mario-Chavez)
-3. Leo Messi
+1. Agustin Sandoval [GitHub](https://github.com/Agustincomics)
+2. Rodrigo Sebastian Aunins [GitHub](https://github.com/rodrigoAunins)
+3. Mariana Juarez [GitHub](https://github.com/Agustincomics)
+4. Leandro Agustin Quipildor [GitHub](https://github.com/LeooQuipildor)
+5. Mario Chavez [GitHub](https://github.com/Mario-Chavez)
