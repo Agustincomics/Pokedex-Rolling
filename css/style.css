@@ -6,6 +6,18 @@
     padding: 0px;
 }
 
+.card-img-top {
+    max-width: 300px;
+    max-height: 300px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card {
+    margin-bottom: 11px !important;
+  }
+
 .navbar-brand {
     font-family: 'Satisfy', cursive;
     font-size: 3em;
