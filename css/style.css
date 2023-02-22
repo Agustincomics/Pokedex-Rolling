@@ -146,6 +146,8 @@ a:hover {
         height: 100%;
     }
 } 
+<<<<<<< HEAD
+=======
 
 @media (min-width: 992px){
     .banner img {
@@ -153,3 +155,4 @@ a:hover {
     }
 
 } 
+>>>>>>> 2441ea9658ccd5b9d7c67593cb1fc911c4fb365d

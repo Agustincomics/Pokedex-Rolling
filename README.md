@@ -31,6 +31,6 @@ para contribuir debes ponerte en contacto con: *EquipoTrabajo@gmail.com*
 
 1. Agustin Sandoval [GitHub](https://github.com/Agustincomics)
 2. Rodrigo Sebastian Aunins [GitHub](https://github.com/rodrigoAunins)
-3. Mariana Juarez [GitHub](https://github.com/Agustincomics)
+3. Mariana Juarez Avila [GitHub](https://github.com/mariju92)
 4. Leandro Agustin Quipildor [GitHub](https://github.com/LeooQuipildor)
 5. Mario Chavez [GitHub](https://github.com/Mario-Chavez)
