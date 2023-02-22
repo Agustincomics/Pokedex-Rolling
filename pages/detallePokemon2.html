@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="pagina de informacion de pokemon" />
+    <meta name="keywords" content="pokemon, anime, serie animada" />
+    <meta name="author" content="Mariana Juarez Avila" />
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="/css/style.css" />
+    <title>Detalle Pokemon Charmander</title>
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger fixed-top">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="../index.html">Pokedex</a>
+            <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarScroll"
+                aria-controls="navbarScroll"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+            >
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarScroll">
+                <ul
+                    class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll"
+                    style="--bs-scroll-height: 100px"
+                >
+                    <li class="nav-item">
+                        <a
+                            class="nav-link active"
+                            aria-current="page"
+                            href="../index.html"
+                            >Inicio</a
+                        >
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a
+                            class="nav-link dropdown-toggle"
+                            href="#"
+                            id="navbarScrollingDropdown"
+                            role="button"
+                            data-bs-toggle="dropdown"
+                            aria-expanded="false"
+                        >
+                            Categorias
+                        </a>
+                        <ul
+                            class="dropdown-menu"
+                            aria-labelledby="navbarScrollingDropdown"
+                        >
+                            <li>
+                                <a
+                                    class="dropdown-item"
+                                    href="about.html"
+                                    >Sobre Nosotros</a
+                                >
+                            </li>
+                        </ul>
+                    </li>
+                </ul>
+                <form class="d-flex" role="search">
+                    <input
+                        class="form-control me-2"
+                        type="search"
+                        placeholder="Buscar"
+                        aria-label="Buscar"
+                    />
+                    <button class="btn btn-outline-warning" type="submit">
+                        🔍︎
+                    </button>
+                </form>
+            </div>
+        </div>
+    </nav>
+</header>
+    <main>
+        <section class="banner container-fluid">
+            <div id="carouselExampleIndicators" class="carousel slide">
+                <div class="carousel-indicators">
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                  <div class="carousel-item active">
+                    <img src="https://www.teahub.io/photos/full/8-84795_pokemon-go-hd-wallpaper-1-journey-151-dreams.jpg" class="img-fluid w-100" alt="img-banner-1">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images.alphacoders.com/581/581224.jpg" class="img-fluid w-100" alt="img-banner-2">
+                  </div>
+                  <div class="carousel-item">
+                    <img src="https://images5.alphacoders.com/480/480717.jpg" class="img-fluid w-100" alt="img-banner-3">
+                  </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                  <span class="visually-hidden">Next</span>
+                </button>
+              </div>
+        </section>
+
+        <section class="container my-5">
+          <div class="card text-center">
+            <div class="card-body">
+              <aside class="row">
+                <div class="col-12">
+                  <span class="fw-bold fs-1">Charmander</span>
+                  <span class="text-muted fs-1">N.°004</span>
+                </div>
+              </aside>
+              <aside class="row">
+                <div class="col-12 col-md-6 col-lg-6">
+                  <img src="/img/charmander.png" class="w-100 mt-md-5 pt-md-5 mt-lg-0 pt-lg-0" alt="Charmander">
+                </div>
+                <div class="col-12 col-md-6 col-lg-6">
+                  <p class="lead my-4">Prefiere las cosas calientes. Dicen que cuando llueve le sale vapor de la punta de la cola. </p>
+                  <div class="card text-bg-primary mb-3">
+                    <div class="card-header text-start">Version</div>
+                    <div class="card-body">
+                      <aside class="row text-start">
+                        <div class="col-6">
+                          <p class="mb-1 fw-bold">Altura</p>
+                          <p class="fw-semibold">0,6m</p>
+                        </div>
+                        <div class="col-6">
+                          <p class="mb-1 fw-bold">Peso</p>
+                          <p class="fw-semibold">8,5kg</p>
+                        </div>
+                        <div class="col-6">
+                          <i class="bi bi-gender-male fs-1"></i>
+                          <i class="bi bi-gender-female fs-1"></i>
+                        </div>
+                        <div class="col-6">
+                          <p class="mb-1 fw-bold">Categoria</p>
+                          <p class="fw-semibold">Lagartija</p>
+                        </div>
+                        <div class="col-6">
+                          <p class="mb-1 fw-bold">Habilidad</p>
+                          <p class="fw-semibold">Mar llamas</p>
+                        </div>
+                      </aside>
+                    </div>
+                  </div>
+                  <aside class="text-start">
+                    <h5>Tipo</h5>
+                    <span class="badge rounded-pill colorante-f">Fuego</span>
+                    <h5 class="mt-3">Debilidad</h5>
+                    <span class="badge rounded-pill colorante-vo">Agua</span>
+                    <span class="badge rounded-pill bg-success">Tierra</span>
+                    <span class="badge rounded-pill text-bg-secondary">Roca</span>
+                    
+                  </aside>
+                  
+                </div>
+              </aside>
+            </div>
+            <div class="card bg-dark-subtle">
+              <div class="card-body">
+                <h5 class="card-title text-start fs-1">Evoluciones</h5>
+                <aside class="row">
+                  <div class="col-md-4 col-md-4">
+                    <img src="/img/charmander.png" class="w-100 pb-md-4" alt="charmander">
+                    <span class="fw-bold">Charmander</span>
+                    <span class="text-muted">N.°004</span>
+                    <div class="mb-5">
+                        <span class="badge rounded-pill colorante-f">Fuego</span>
+                    </div>
+                  </div>
+                  
+                  <div class="col-12 col-md-4">
+                    <img src="/img/charmeleon.png" class="w-100 pb-md-3" alt="charmaleon">
+                    <span class="fw-bold">Charmeleon</span>
+                    <span class="text-muted">N.°005</span>
+                    <div class="mb-5">
+                        <span class="badge rounded-pill colorante-f">Fuego</span>
+                    </div>
+                  </div>
+                  <div class="col-12 col-md-4">
+                    <img src="/img/charizar.png" class="w-100" alt="Charizard">
+                    <span class="fw-bold">Charizard</span>
+                    <span class="text-muted">N.°003</span>
+                    <div class="mb-5">
+                        <span class="badge rounded-pill colorante-f">Fuego</span>
+                        <span class="badge rounded-pill text-bg-secondary">Volador</span>
+                    </div>
+                  </div>
+                </aside>
+              </div>
+            </div>
+            </div>
+          </div>
+        </section>
+    </main>
+    <footer class="text-secondary mt-2">
+      <section class="h-50">
+          <h3>Todos los derechos reservado</h3>
+      </section>
+  </footer>
+
+    <!-- JavaScript Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
